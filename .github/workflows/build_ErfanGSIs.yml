@@ -6,10 +6,10 @@ on:
     
 env:
   ROM_URL: https://netactuate.dl.sourceforge.net/project/ancientrom/riva/AncientOS-CIVILIZATION-v4.0.1-Final-riva-PRIMEVAL-20201215-2315-Vanilla.zip 
-  ROM_NAME: Generic
+  ROM_NAME: Generic:AncientOS-CIVILIZATION-v4-0-1-Final
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Ancientos
+  ZIP_NAME: AncientOS-CIVILIZATION-v4-0-1-Final
 jobs:
   build:
     runs-on: ubuntu-latest
