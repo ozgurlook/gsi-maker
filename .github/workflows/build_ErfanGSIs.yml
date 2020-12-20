@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://netix.dl.sourceforge.net/project/ancientrom/lavender/AncientOS-weeaboify-v4.0-Final-lavender-Koshiki-20200928-1205-Vanilla.zip 
-  ROM_NAME: Generic
+  ROM_URL: https://bigota.d.miui.com/V12.0.1.0.QCNMIXM/miui_OLIVEGlobal_V12.0.1.0.QCNMIXM_ff1f4ba5e5_10.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Ancientos4.0
+  ZIP_NAME: miui_OLIVEGlobal_V12.0.1.0.QCNMIXM_ff1f4ba5e5_10.0
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,7 +26,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/erkanergen7/ErfanGSIs-VelanGSIs.git  ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/ozgurlook/ErfanGSIs-VelanGSIs.git  ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
