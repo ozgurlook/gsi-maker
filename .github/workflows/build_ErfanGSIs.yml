@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://drive.google.com/u/0/uc?export=download&confirm=RO0b&id=1-YqVHAS73hssIVpUMQcobh5E4ZVriwTt
-  ROM_NAME: MIUI
+  ROM_URL: https://mirrorbits.lineageos.org/full/flame/20201220/lineage-17.1-20201220-nightly-flame-signed.zip
+  ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: ext
+  ZIP_NAME: lineage-17.1-20201220-nightly-flame-signed
 jobs:
   build:
     runs-on: ubuntu-latest
